@@ -1,0 +1,71 @@
+/*头部样式*/
+#header .top {
+    height: 30px;
+    line-height: 30px;
+}
+
+#header .nav {
+    height: 60px;
+    line-height: 60px;
+}
+
+#header .nav .fl {
+    position: relative;
+}
+
+#header .nav img {
+    width: 44px;
+    height: 44px;
+    margin: 0 12px;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+#header .nav h2 {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 68px;
+}
+
+#header .nav > ul > li {
+    width: 104px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+#header .nav > ul > li:hover {
+    background: #3399ff;
+}
+#header .nav > ul > li:hover .menu {
+    display: block;
+}
+#header .nav > ul > li:hover a {
+    color: #fff;
+}
+
+#header .nav ul > li a {
+    color: #666666;
+}
+
+#header .nav .current {
+    background: #3399ff;
+}
+#header .menu{
+    display: none;
+}
+#header .menu li {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #666;
+}
+
+#header .menu li:not(:last-child) {
+    border-bottom: none;
+}
+#header .banner{
+    background: #ccc;
+    height: 460px;
+}

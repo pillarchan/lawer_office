@@ -1,0 +1,49 @@
+/*浮动和清除浮动*/
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.clear-fix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*边框*/
+.border-ccc{
+    border: 1px solid #ccc;
+}
+/*背景图片和精灵图*/
+.banner-img{
+    height: 450px;
+    background-image: url("../images/banner01.jpg");
+    z-index: 10;
+}
+/*文字相关*/
+.font-white{
+    color: #fff !important;
+}
+.font-small{
+    font-size: 12px;
+}
+.font-color999{
+    color: #999;
+}
+.font-color666{
+    color: #666;
+}
+/*内外边距*/
+.pl5px{
+    padding-left: 5px;
+}
+.px5px{
+    padding:0 5px;
+}
