@@ -13,6 +13,9 @@
     display: block;
     clear: both;
 }
+.center{
+    margin:0 auto;
+}
 .wrapper{
     width: 1200px;
     margin: 0 auto;
@@ -21,12 +24,28 @@
 .border-ccc{
     border: 1px solid #ccc;
 }
+.border-b{
+    border-bottom:1px solid #fff;
+}
 /*背景图片和精灵图*/
 .banner-img{
     height: 450px;
-    background-image: url("../images/banner01.jpg");
+    background: url("../images/banner01.jpg") no-repeat;
     z-index: 10;
 }
+.service-bg{
+    background-color:#fff;
+    background-image:url("../images/index-p1-bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.case-bg{
+    background-color:#fff;
+    background-image:url("../images/bg_l9wu.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
 /*文字相关*/
 .font-white{
     color: #fff !important;
@@ -40,10 +59,70 @@
 .font-color666{
     color: #666;
 }
+.font-size48{
+    font-size: 48px;
+}
 /*内外边距*/
+.mt2px{
+    margin-top: 2px;
+}
+.mt20px{
+    margin-top: 20px;
+}
 .pl5px{
     padding-left: 5px;
 }
 .px5px{
     padding:0 5px;
+}
+/*标题组件*/
+.main-title{
+    background:#fff;
+    position: relative;
+}
+.main-title h3{
+    text-align: center;
+    font-weight: normal;
+    padding-top: 14px;
+    font-size:28px;
+    border-bottom: 1px solid #ccc;
+    line-height: 48px;
+}
+.main-title p{
+    text-align: center;
+    color:#3399ff;
+    width: 184px;
+    font-size:16px;
+    line-height: 28px;
+    border-top:2px solid #008dcc;
+    position: absolute;
+    bottom:-29px;
+    left: 42%;
+}
+.subtitle{
+    text-align: left;
+    padding-left: 10px;
+    position:absolute;
+    font-size: 20px;
+    font-weight: normal;
+    width: 184px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 2px solid #09c;
+}
+.subtitle span{
+    font-size: 14px;
+    color:#69c;
+}
+/*按钮*/
+.btn{
+    display: block;
+    width: 78px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    font-size:14px;
 }

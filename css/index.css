@@ -16,9 +16,9 @@
 #header .nav img {
     width: 44px;
     height: 44px;
-    margin: 0 12px;
-    position: absolute;
-    top: 8px;
+    margin: 12px;
+    position:absolute;
+    top: 0;
     left: 0;
 }
 
@@ -29,18 +29,21 @@
     padding-left: 68px;
 }
 
-#header .nav > ul > li {
+#header .nav .group > li {
     width: 104px;
     float: left;
     font-size: 14px;
     text-align: center;
+    position:relative;
 }
 
-#header .nav > ul > li:hover {
+#header .nav .group > li:hover {
     background: #3399ff;
 }
-#header .nav > ul > li:hover .menu {
+#header .nav .group > li:hover .menu {
+    width: 104px;
     display: block;
+    position: absolute;
 }
 #header .nav > ul > li:hover a {
     color: #fff;
@@ -69,3 +72,113 @@
     background: #ccc;
     height: 460px;
 }
+#header .banner .content{
+    padding: 80px 60px;
+}
+#header .banner .content h3{
+    font-size: 38px;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+#header .banner .content p{
+    width: 330px;
+    border-top:2px solid #fff;
+    font-size: 20px;
+    padding-top: 24px;
+}
+#header .banner .subnav{
+    background: #fff;
+    margin-top: 8px;
+    padding:22px 70px 16px;
+    border-bottom:1px dashed #ccc;
+}
+#header .banner .subnav img{
+    width:60px;
+    margin-right: 12px;
+}
+#header .banner .subnav ul li{
+    float:left;
+    font-size:14px;
+    padding: 0 66px;
+    border-right:1px dashed #ccc;
+}
+#header .banner .subnav ul>li:last-child{
+    border-right: none;
+}
+#main{
+    background: #f1f1f1;
+}
+#main .service .container{
+    padding: 60px 50px 30px;
+}
+#main .service .container .subcontent{
+    width: 840px;
+}
+#main .service .container .subcontent li{
+    padding-left: 20px;
+    padding-bottom:20px;
+    float: left;
+    position:relative;
+}
+#main .service .container .subcontent li p{
+    display: none;
+}
+#main .service .container .subcontent li:hover p{
+    display:block;
+    width:260px;
+    height:30px;
+    line-height: 30px;
+    background: rgba(0,0,0,0.2);
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    transition: 0.3s linear;
+}
+#main .case .container{
+    padding: 52px 56px 24px;
+}
+
+#main .case .container .subcontent li{
+    float: left;
+    width: 240px;
+    color: #666;
+    background: #fff;
+    margin: 19px 16px;
+}
+#main .case .container .subcontent li img{
+    width: 240px;
+    height: 150px;
+}
+#main .case .container .subcontent li h4{
+    padding:18px 0 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: normal;
+}
+#main .case .container .subcontent li p{
+    padding:0 15px;
+    line-height: 15px;
+    font-size: 12px;
+}
+#main .case .container .subcontent li a{
+    text-align: right;
+    padding-top:10px;
+    padding-right:16px;
+    font-size:14px;
+    line-height:40px ;
+    display:block;
+    color: #39f;
+}
+#main .third .news{
+    width: 740px;
+    background: #fff;
+}
+#main .third .news>div{
+    text-align: right;
+    position:relative;
+    border-bottom:1px solid #ccc;
+}
+
