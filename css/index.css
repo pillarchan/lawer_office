@@ -1,71 +1,158 @@
-/*头部样式*/
-#header .top {
-    height: 30px;
-    line-height: 30px;
-}
 
-#header .nav {
-    height: 60px;
-    line-height: 60px;
+#main{
+    background: #f1f1f1;
 }
-
-#header .nav .fl {
-    position: relative;
+#main .service .container{
+    padding: 60px 50px 30px;
 }
-
-#header .nav img {
-    width: 44px;
-    height: 44px;
-    margin: 0 12px;
-    position: absolute;
-    top: 8px;
-    left: 0;
+#main .service .container .subcontent{
+    width: 840px;
 }
-
-#header .nav h2 {
-    display: inline-block;
-    font-size: 28px;
-    font-weight: normal;
-    padding-left: 68px;
-}
-
-#header .nav > ul > li {
-    width: 104px;
+#main .service .container .subcontent li{
+    padding-left: 20px;
+    padding-bottom:20px;
     float: left;
-    font-size: 14px;
-    text-align: center;
+    position:relative;
 }
-
-#header .nav > ul > li:hover {
-    background: #3399ff;
-}
-#header .nav > ul > li:hover .menu {
-    display: block;
-}
-#header .nav > ul > li:hover a {
-    color: #fff;
-}
-
-#header .nav ul > li a {
-    color: #666666;
-}
-
-#header .nav .current {
-    background: #3399ff;
-}
-#header .menu{
+#main .service .container .subcontent li p{
     display: none;
 }
-#header .menu li {
-    height: 40px;
-    line-height: 40px;
-    border: 1px solid #666;
+#main .service .container .subcontent li:hover p{
+    display:block;
+    width:260px;
+    height:30px;
+    line-height: 30px;
+    background: rgba(0,0,0,0.2);
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    transition: 0.3s linear;
+}
+#main .case .container{
+    padding: 52px 56px 24px;
 }
 
-#header .menu li:not(:last-child) {
-    border-bottom: none;
+#main .case .container .subcontent li{
+    float: left;
+    width: 240px;
+    color: #666;
+    background: #fff;
+    margin: 19px 16px;
 }
-#header .banner{
-    background: #ccc;
-    height: 460px;
+#main .case .container .subcontent li img{
+    width: 240px;
+    height: 150px;
 }
+#main .case .container .subcontent li h4{
+    padding:18px 0 0 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: normal;
+}
+#main .case .container .subcontent li p{
+    padding:0 15px;
+    line-height: 15px;
+    font-size: 12px;
+}
+#main .case .container .subcontent li a{
+    text-align: right;
+    padding-top:10px;
+    padding-right:16px;
+    font-size:14px;
+    line-height:40px ;
+    display:block;
+    color: #39f;
+}
+#main .third .news{
+    width: 740px;
+    background: #fff;
+}
+#main .third .news>div>a{
+    color: #69c;
+    margin-left: 500px;
+}
+#main .news .brief{
+    padding: 10px 0 24px;
+}
+#main .news .brief li{
+    margin: 0 18px;
+    padding: 22px 12px 12px 30px;
+    border-bottom: 1px solid #ccc;
+}
+#main .news .brief .fl{
+    background:#09c;
+    width: 60px;
+    text-align: center;
+    color: #fff;
+}
+#main .news .brief .fl h3{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+#main .news .brief .fl p{
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+#main .news .brief .fr{
+    width: 590px;
+    padding-left: 12px;
+}
+#main .news .brief .fr a{
+    color: #666;
+}
+#main .news .brief .fr a h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+#main .news .brief .fr a p{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#main .reservation{
+    width: 440px;
+    background: #fff;
+}
+#main .reservation .reservationtable{
+    padding: 38px 0 59px 30px;
+}
+#main .reservation label{
+    display: block;
+    color: #666666;
+    margin-bottom: 10px;
+}
+#main .reservation label span{
+    color: #f00;
+}
+#main .reservation label input{
+    width: 320px;
+    height:38px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    margin-left: 28px;
+}
+#main .reservation label textarea{
+    width: 320px;
+    height:70px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    margin-left: 28px;
+}
+#main .reservation form>input{
+    text-align: center;
+    width: 322px;
+    height:40px;
+    line-height: 40px;
+    border: none;
+    border-radius:3px;
+    margin-left: 61px;
+    color: #fff;
+    background: #39c;
+}
+
+

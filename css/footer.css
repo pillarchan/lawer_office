@@ -1,0 +1,43 @@
+/*页脚*/
+#footer .wrapper{
+    padding: 20px 0 15px;
+}
+#footer .wrapper .left{
+    border-right: 1px dashed #ccc;
+    position: relative;
+}
+#footer .wrapper .left img{
+    width: 48px;
+    height: 48px;
+    position:absolute;
+    top: 22px;
+    left: 12px;
+}
+#footer .wrapper .left h2{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: normal;
+    padding: 28px 32px 0 68px;
+    color:#999;
+}
+#footer .wrapper .content{
+    padding:18px 36px 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+#footer .wrapper .wechat{
+    width: 206px;
+    background: #eee;
+    padding: 6px;
+    margin-right: 32px;
+}
+#footer .wrapper .wechat img{
+    width: 100px;
+    height: 100px;
+}
+#footer .wrapper .wechat span{
+    display: block;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 25px 20px 0 0;
+}

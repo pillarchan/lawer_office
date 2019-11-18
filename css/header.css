@@ -1,0 +1,107 @@
+/*头部样式*/
+#header .top {
+    height: 30px;
+    line-height: 30px;
+}
+
+#header .nav {
+    height: 60px;
+    line-height: 60px;
+}
+
+#header .nav .fl {
+    position: relative;
+}
+
+#header .nav img {
+    width: 44px;
+    height: 44px;
+    margin: 12px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+#header .nav h2 {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 68px;
+}
+
+#header .nav .group > li {
+    width: 104px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    position:relative;
+}
+
+#header .nav .group > li:hover {
+    background: #3399ff;
+}
+#header .nav .group > li:hover .menu {
+    width: 104px;
+    display: block;
+    position: absolute;
+}
+#header .nav > ul > li:hover a {
+    color: #fff;
+}
+
+#header .nav ul > li a {
+    color: #666666;
+}
+
+#header .nav .current {
+    background: #3399ff;
+}
+#header .menu{
+    display: none;
+}
+#header .menu li {
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #666;
+}
+
+#header .menu li:not(:last-child) {
+    border-bottom: none;
+}
+#header .banner{
+    height: 450px;
+    border-bottom: 10px solid #ccc;
+}
+#header .banner .content{
+    padding: 80px 60px;
+}
+#header .banner .content h3{
+    font-size: 38px;
+    line-height: 60px;
+    padding-bottom: 20px;
+}
+#header .banner .content p{
+    width: 330px;
+    border-top:2px solid #fff;
+    font-size: 20px;
+    padding-top: 24px;
+}
+#header .banner .subnav{
+    background: #fff;
+    margin-top: 8px;
+    padding:22px 70px 16px;
+    border-bottom:1px dashed #ccc;
+}
+#header .banner .subnav img{
+    width:60px;
+    margin-right: 12px;
+}
+#header .banner .subnav ul li{
+    float:left;
+    font-size:14px;
+    padding: 0 66px;
+    border-right:1px dashed #ccc;
+}
+#header .banner .subnav ul>li:last-child{
+    border-right: none;
+}

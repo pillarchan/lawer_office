@@ -7,7 +7,7 @@ pre,
     /* text formatting elements 文本格式元素*/
 form,fieldset,legend,button,input,textarea,
     /* form elements 表单元素*/
-th, td
+th, td,input
     /* table elements 表格元素*/
 {
     margin: 0;
@@ -17,7 +17,7 @@ th, td
 body,button,input,select,textarea
     /* for ie*/
 {
-    font-family:"微软雅黑";
+    font-family:"微软雅黑",serif;
     font-size:12px;
     background-color: white;
 }
@@ -68,6 +68,6 @@ table{
     border-spacing: 0;
 }
 /* 处理图像3px问题 */
-img{
+img,textarea{
     vertical-align:middle;
 }
