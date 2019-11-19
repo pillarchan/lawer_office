@@ -1,24 +1,41 @@
-#news .rightside{
+#news .rightside {
     width: 870px;
     color: #666;
-    margin: 30px 60px 77px 0;
+    margin: 30px 60px 20px 0;
+    text-align: center;
 }
-#news .rightside h2{
-    font:normal 18px/24px "";
-    color:#09c;
+
+#news .rightside h2 {
+    text-align: left;
+    font: normal 18px/24px "";
+    color: #09c;
 }
-#news .rightside h3{
-    font:normal 10px/20px "";
+
+#news .rightside h3 {
+    text-align: left;
+    font: normal 10px/20px "";
     color: #ccc;
 }
-#news .rightside h4{
-    font:normal 12px/24px "";
+
+#news .rightside h4 {
+    text-align: left;
+    font: normal 12px/24px "";
+    color: #666;
+    padding-bottom: 18px;
+}
+
+#news .rightside p {
+    text-align: left;
+    padding-top: 18px;
+    padding-bottom: 334px;
+}
+
+#news .rightside p a {
+    font: normal 12px/28px "";
     color: #666;
 }
-#news .rightside p a{
-    font:normal 12px/28px "";
-    color: #666;
-}
-#news .rightside p a span{
+
+#news .rightside p a span {
+    padding-right: 12px;
     color: #ccc;
 }

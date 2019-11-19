@@ -176,6 +176,9 @@
     font:normal 12px/20px "";
     padding:10px 0 0 16px;
 }
+.general-nav span>a{
+    color: #666;
+}
 /*副页通用边栏*/
 .sidebar{
     padding: 32px 0 0 20px;

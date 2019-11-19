@@ -1,0 +1,16 @@
+#contact .container{
+    padding: 60px 48px 46px;
+}
+#contact .leftside>h2{
+    font:normal 20px/20px "";
+    color: #333;
+}
+#contact .leftside>p{
+    font:normal 14px/32px "";
+    color: #666;
+    padding: 34px 0 30px;
+}
+#contact .leftside>img{
+    width: 142px;
+    height: 142px;
+}
