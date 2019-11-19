@@ -1,0 +1,59 @@
+#case .content{
+    padding-bottom: 54px;
+}
+#case .content>ul{
+    padding: 54px 52px 0;
+}
+
+#case .content>ul li {
+    float: left;
+    width: 256px;
+    padding-bottom: 22px;
+}
+
+#case .content>ul li:not(:nth-child(4n)) {
+    float: left;
+    width: 256px;
+    padding-right: 20px;
+}
+
+#case .content>ul li a {
+    color: #666;
+}
+
+#case .content>ul li img {
+    width: 246px;
+    height: 220px;
+}
+
+#case .content>ul li h4 {
+    font: normal 16px/24px "";
+}
+
+#case .content>ul li p {
+    width: 242px;
+    font: normal 12px/16px ""
+}
+
+#case .page {
+    width: 182px;
+    margin: 0 auto;
+}
+
+#case .page .current {
+    border: 1px solid #069;
+    background: #ccf;
+}
+
+#case .page ul li {
+    float: left;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+    margin-right: 3px;
+}
+
+#case .page ul li a {
+    font-size: 10px;
+    line-height: 18px;
+    color: #36f;
+}

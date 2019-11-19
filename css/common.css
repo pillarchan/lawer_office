@@ -194,3 +194,18 @@
     color: #999;
     line-height: 40px;
 }
+/*页面跳转*/
+.page-jump  label{
+    color:#666;
+}
+.page-jump  label>input[type="text"]{
+    border: 1px solid #ccc;
+    width: 24px;
+    height: 18px;
+}
+.page-jump  label>input[type="submit"]{
+    border: 1px solid #ccc;
+    font:normal 12px/16px "";
+    width: 42px;
+    color: #000;
+}

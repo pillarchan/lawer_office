@@ -1,0 +1,24 @@
+#news .rightside{
+    width: 870px;
+    color: #666;
+    margin: 30px 60px 77px 0;
+}
+#news .rightside h2{
+    font:normal 18px/24px "";
+    color:#09c;
+}
+#news .rightside h3{
+    font:normal 10px/20px "";
+    color: #ccc;
+}
+#news .rightside h4{
+    font:normal 12px/24px "";
+    color: #666;
+}
+#news .rightside p a{
+    font:normal 12px/28px "";
+    color: #666;
+}
+#news .rightside p a span{
+    color: #ccc;
+}

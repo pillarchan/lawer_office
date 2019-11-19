@@ -1,0 +1,32 @@
+#lawyers .content{
+    padding: 72px 60px 34px;
+}
+#lawyers .content li{
+    float: left;
+    background: #f1f1f1;
+    padding: 10px;
+    margin-bottom:42px ;
+}
+#lawyers .content li:not(:nth-child(2n)){
+    margin-right:44px ;
+}
+#lawyers .content li img{
+    width: 236px;
+    height: 236px;
+}
+#lawyers .content li>div{
+    width: 212px;
+    color: #666;
+    padding:40px 26px 0 22px ;
+}
+#lawyers .content li>div>h4{
+    font:normal 16px/40px "";
+}
+#lawyers .content li>div>p{
+    font:normal 14px/20px "";
+}
+#lawyers .content li>div>p>span{
+    color:#39f;
+}
+
+
