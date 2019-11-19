@@ -176,3 +176,21 @@
     font:normal 12px/20px "";
     padding:10px 0 0 16px;
 }
+/*副页通用边栏*/
+.sidebar{
+    padding: 32px 0 0 20px;
+}
+.sidebar li{
+    width: 198px;
+    border-bottom: 1px solid #ccc;
+}
+.sidebar li h2{
+    padding-left: 6px;
+    font-size:20px;
+    line-height: 36px;
+}
+.sidebar li a{
+    font-size: 14px;
+    color: #999;
+    line-height: 40px;
+}

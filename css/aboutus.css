@@ -1,11 +1,44 @@
-#aboutus .introduction>h3{
+#aboutus .introduction > h3 {
     padding-top: 23px;
-    font:normal 24px/40px "";
+    font: normal 24px/40px "";
     height: 40px;
 }
-#aboutus .introduction .content-top>img{
-    width: 360px;
-}
-#aboutus .introduction .content-top>ul li{
 
+#aboutus .introduction .content-top{
+    padding: 60px 34px 50px;
+}
+#aboutus .introduction .content-top > img {
+    display: inline-block;
+    width: 360px;
+    height: 250px;
+}
+
+#aboutus .introduction .content-top > ul {
+    width: 666px;
+    padding:0 46px;
+}
+
+#aboutus .introduction .content-top > ul li {
+    color: #666;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+#aboutus .introduction .content-top > ul li:last-child{
+    border-bottom: none;
+}
+#aboutus .introduction .content-bottom{
+    margin: 0 34px;
+    padding: 0 18px 70px;
+}
+#aboutus .introduction .content-bottom>p{
+    font-size:16px;
+    color: #666666;
+    height: 116px;
+    line-height: 116px;
+}
+#aboutus .introduction .content-bottom img{
+    width:284px;
+    padding: 0 36px;
 }
